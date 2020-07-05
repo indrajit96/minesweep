@@ -1,0 +1,2 @@
+body{margin:20px;padding:0;font-family:sans-serif}.clear{clear:both;content:""}.game{display:flex;flex-direction:column;margin:0 auto}.game-info{min-height:50px}.cell{background:#eb0707;border:1px solid #0adb1b;float:left;line-height:34px;height:34px;text-align:center;width:34px;cursor:pointer}.cell:focus{outline:none}.hidden{background:#3118cf}.is-flag,.is-mine{color:#fc543c}
+/*# sourceMappingURL=main.085ddc0d.chunk.css.map */
