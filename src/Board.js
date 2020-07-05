@@ -212,7 +212,7 @@ export default class Board extends React.Component {
         // check if mine. game over if true
         if (this.state.boardData[x][y].isMine) {
             this.revealBoard();
-            alert("game over");
+            alert("You LOSE always");
         }
 
         let updatedData = this.state.boardData;
@@ -226,7 +226,7 @@ export default class Board extends React.Component {
         if (this.getHidden(updatedData).length === this.props.mines) {
             win = true;
             this.revealBoard();
-            alert("You Win");
+            alert("You Win this time");
         }
 
         this.setState({
@@ -288,20 +288,20 @@ export default class Board extends React.Component {
     }
     // Component methods
     componentWillReceiveProps(nextProps) {
-        if (JSON.stringify(this.props) !== JSON.stringify(nextProps)) {
+//        if (JSON.stringify(this.props) !== JSON.stringify(nextProps)) {
             this.setState({
                 boardData: this.initBoardData(nextProps.height, nextProps.width, nextProps.mines),
                 gameWon: false,
                 mineCount: nextProps.mines,
             });
-        }
+//        }
     }
 
     render() {
         return (
             <div className="board">
                 <div className="game-info">
-                    <span className="info">mines: {this.state.mineCount}</span><br />
+                    <span className="info">mines remaining: {this.state.mineCount}</span><br />
                     <span className="info">{this.state.gameWon ? "You Win" : ""}</span>
                 </div>
                 {
