@@ -1,0 +1,15 @@
+{
+  "course": "||COURSE||",
+  "text.ok": "OK",
+  "error.recordUpdated": "Record Updated",
+  "error.recordUpdateByAnotherAuthor": "This record has been updated by another author, Click Ok to reload the record",
+  "validation.onlyAlpha": "Please enter only alphabets.",
+  "validation.onlyAlphaDig": "Please enter only alphabets or digits.",
+  "validation.percent": "Please enter a valid percentage.",
+  "validation.maxDurCantGreat300": "Maximum duration of a module cannot be greater then 300mins.",
+  "validation.seatsCantGreat10000": "Seat limit cannot be greater than 10000.",
+  "validation.timeElapsed": "Time already elapsed.",
+  "success.courseDeleted": "||COURSE|| deleted successfully.",
+  "success.courseDuplicated": "||COURSE|| duplicated successfully."
+}
+
