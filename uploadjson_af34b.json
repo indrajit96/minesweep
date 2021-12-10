@@ -1,0 +1,15 @@
+{
+  "course": "|| CURSO||",
+  "text.ok": "DE ACUERDO",
+  "error.recordUpdated": "Registro actualizado",
+  "error.recordUpdateByAnotherAuthor": "Este registro ha sido actualizado por otro autor, haga clic en Aceptar para volver a cargar el registro",
+  "validation.onlyAlpha": "Introduzca sólo alfabetos.",
+  "validation.onlyAlphaDig": "Introduzca sólo alfabetos o dígitos.",
+  "validation.percent": "Introduzca un porcentaje válido.",
+  "validation.maxDurCantGreat300": "La duración máxima de un módulo no puede ser superior a 300 minutos.",
+  "validation.seatsCantGreat10000": "El límite de asientos no puede ser superior a 10000.",
+  "validation.timeElapsed": "El tiempo ya había transcurrido.",
+  "success.courseDeleted": "|| CURSO|| eliminado correctamente.",
+  "success.courseDuplicated": "|| CURSO|| duplicado correctamente."
+}
+
